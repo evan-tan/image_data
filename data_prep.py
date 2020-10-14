@@ -33,7 +33,7 @@ if __name__ == "__main__":
     with open("train.txt","w") as f:
         for obj in objects_to_label:
             for i in range(0, int(count_img/2)):
-                line = "build/darknet/x64/data/img/" + obj + str(i) + ".png" + "\n"
+                line = "build/darknet/x64/data/obj/" + obj + str(i) + ".png" + "\n"
                 f.write(line)
 
 
