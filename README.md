@@ -1,4 +1,5 @@
 # image_data
+Image data for training YOLO in Google Colab
 Currently, the image dataset contains labelled data for images 0-2000.
 
 
@@ -10,3 +11,7 @@ Apart from the unlabelled data bins, and `cfg/` this folder structure is used in
 
 ## If testing/training on a local machine
 Run the bash script `local_setup.sh`, please ensure that you have the [darknet](https://github.com/AlexeyAB/darknet) repository in the parent folder where you clone this repository!
+
+## TODO
+- Use host data using Google Drive folder and download from CLI
+- Add enable `data_prep.py` for validation and test sets
