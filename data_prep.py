@@ -35,9 +35,28 @@ if __name__ == "__main__":
     with open(data_path / "train.txt", "w") as f_train:
         for obj in objects_to_label:
             item_num = []
-            if pl.Path(obj).is_dir():
-                item_num = [int(str(path.stem).strip(obj)) for path in pl.Path(obj).iterdir() if path.suffix == ".png"]
-                item_num.sort()
+            if pl.Path(data_path/"obj").is_dir():
+                for path in pl.Path(data_path/"obj").iterdir():
+                    if obj in path.stem and path.suffix == ".png":
+                        num = str(path.stem).strip(obj)
+                        item_num.append(int(num))
+                        item_num.sort()
                 for i in item_num:
                     line = "build/darknet/x64/data/obj/" + obj + str(i) + ".png\n"
                     f_train.write(line)
+
+    # for path in pl.Path(data_path / "obj").iterdir():
+    #     if path.suffix == ".txt":
+    #         if "sheep" not in str(path):
+    #             if "coke" not in str(path):
+    #                 file_name = path.stem
+    #                 png_sheep = pl.Path(data_path/"obj"/("sheep" + file_name + ".png"))
+    #                 png_coke = pl.Path(data_path/"obj"/("sheep" + file_name + ".png"))
+    #                 if png_coke.is_file():
+    #                     new_name = "coke" + file_name + path.suffix
+    #                     path.rename(pl.Path(path.parent, new_name))
+    #                     print(new_name)
+    #                 elif png_sheep.is_file():
+    #                     new_name = "sheep" + file_name + path.suffix
+    #                     path.rename(pl.Path(path.parent, new_name))
+    #                     print(new_name)

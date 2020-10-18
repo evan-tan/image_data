@@ -2114,7 +2114,6 @@ build/darknet/x64/data/obj/sheep31511.png
 build/darknet/x64/data/obj/sheep31512.png
 build/darknet/x64/data/obj/sheep31514.png
 build/darknet/x64/data/obj/sheep31515.png
-build/darknet/x64/data/obj/sheep31524.png
 build/darknet/x64/data/obj/coke0.png
 build/darknet/x64/data/obj/coke1.png
 build/darknet/x64/data/obj/coke2.png
@@ -4180,13 +4179,11 @@ build/darknet/x64/data/obj/coke5561.png
 build/darknet/x64/data/obj/coke5562.png
 build/darknet/x64/data/obj/coke5563.png
 build/darknet/x64/data/obj/coke5565.png
-build/darknet/x64/data/obj/coke5566.png
 build/darknet/x64/data/obj/coke5567.png
 build/darknet/x64/data/obj/coke5569.png
 build/darknet/x64/data/obj/coke5572.png
 build/darknet/x64/data/obj/coke5574.png
 build/darknet/x64/data/obj/coke5575.png
-build/darknet/x64/data/obj/coke5576.png
 build/darknet/x64/data/obj/coke5577.png
 build/darknet/x64/data/obj/coke5579.png
 build/darknet/x64/data/obj/coke5581.png
@@ -4263,7 +4260,6 @@ build/darknet/x64/data/obj/coke10068.png
 build/darknet/x64/data/obj/coke10071.png
 build/darknet/x64/data/obj/coke10170.png
 build/darknet/x64/data/obj/coke10171.png
-build/darknet/x64/data/obj/coke10172.png
 build/darknet/x64/data/obj/coke10173.png
 build/darknet/x64/data/obj/coke10175.png
 build/darknet/x64/data/obj/coke10177.png
@@ -4329,4 +4325,3 @@ build/darknet/x64/data/obj/coke12956.png
 build/darknet/x64/data/obj/coke12957.png
 build/darknet/x64/data/obj/coke12958.png
 build/darknet/x64/data/obj/coke12959.png
-build/darknet/x64/data/obj/coke13319.png
