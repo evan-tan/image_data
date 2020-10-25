@@ -1,6 +1,5 @@
 # image_data
-Image data for training YOLO in Google Colab
-
+Image data for training YOLO in Google Colab. The Colab notebook can be found [here](https://colab.research.google.com/drive/1vi5kB4loyUCfMLdYa7mDd94gicXoawpI?usp=sharing)
 
 ## data_prep.py
 Created to properly name images of sheep and coke from collected data in https://github.com/evan-tan/ece4078-team2-05 M3 folder.
@@ -13,5 +12,4 @@ Apart from the labelled data bins and `cfg/`, this folder structure is used in h
 Run the bash script `local_setup.sh`, please ensure that you have the [darknet](https://github.com/AlexeyAB/darknet) repository in the parent folder where you clone this repository!
 
 ## TODO
-- Use host data using Google Drive folder and download from CLI
 - Add enable `data_prep.py` for validation and test sets
